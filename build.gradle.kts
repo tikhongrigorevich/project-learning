@@ -1,5 +1,7 @@
 plugins {
     id("java")
+    id("application")
+    id("com.github.ben-manes.versions") version "0.54.0"
 }
 
 group = "org.example"
